@@ -1,0 +1,53 @@
+public class JogoDaVelha{
+
+	 public static void main(String[] args) {
+		montaJogoDaVelha();		
+	}		 
+	
+	 public static void montaJogoDaVelha() {
+
+		String[][] velha = {
+				{"0.0","0.1","0.2"},
+				{"1.0","1.1","1.2"},
+				{"2.0","2.1","2.2"}
+				};			
+		
+		boolean x;
+		boolean o;				
+					
+		for (int i = 0; i < velha.length; i++) {
+			if (velha[0.0] = x + o) {
+				System.out.println("Você escolheu a letra: ", velha);
+			}else if (velha[0.1] = x + o) {
+				System.out.print("Você escolheu a letra: ", velha);
+			}if (velha[0.2] = x + o) {
+				System.out.print("Você escolheu a letra: ", velha);
+			}else if (velha[1.0] = x + o) {
+				System.out.print("Você escolheu a letra: ", velha); 
+			}	if (velha[1.1] = x + o) {
+				System.out.print("Você escolheu a letra: ", velha);
+			}else if (velha[1.2] = x + o) {
+				System.out.print("Você escolheu a letra: ", velha);				
+			}
+			if (velha[2.0] = x + o) {
+		    	System.out.print("Você escolheu a letra: ", velha);
+			}else if (velha[2.1] = x + o) {
+				System.out.print("Você escolheu a letra: ", velha);
+			}	
+			if (velha[2.2] = x + o) {
+				System.out.print("Você escolheu a letra: ", velha);
+			}	
+			
+		}
+				
+		for ( int i = 0; i < velha.length; i++) {
+			
+			for (int j = 0; j < velha[i].length; j++) {
+				System.out.print(" | " + velha[i][j] + " | ");
+			}
+			System.out.println("");
+			
+		}
+		
+	}
+}
